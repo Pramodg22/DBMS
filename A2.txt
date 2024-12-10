@@ -126,15 +126,15 @@ SQL> select * from employee where sex='m';
 
      EMPNO EMPNAME              S      PHONE 	DOB
 ---------- -------------------- - ---------- -------------  --------------
-         1 gouse          	            m 	9035789789 	05-MAY-03
-         2 bhanu                	m       	4165 		19-MAY-03
-         3 abhishek             	m        	897 		12-DEC-04
-         4 dhanu                  	m        	732 		18-AUG-05
-         5 pratham              	m         46 		17-JUN-12
-         6 lalit                		m       	7896 		14-SEP-05
-         7 akhil                		m        	135 		14-AUG-02
-         8 suresh                	m       	5285 		03-DEC-07
-         9 chinmay              	m      	45625 		23-NOV-12
+         1 abc          	m 	9035789789 	12-DEC-03
+         2 xyz                	m       4165 		23-JAN-03
+         3 tony             	m      69876 		22-DEC-04
+         4 roy                  m        999 		02-AUG-05
+         5 ramesh              	m        123 		19-JUN-12
+         6 himesh               m       7896 		24-OCT-05
+         7 aryan                m       766545 		14-AUG-02
+         8 suresh               m       5285 		03-DEC-07
+         9 ramya              	m      	657658 		11-JUL-12
 
 SQL> Explain plan for
   2  select * from employee where sex='m';
